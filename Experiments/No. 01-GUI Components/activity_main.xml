@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Rajalakshmi Engineering College"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        tools:ignore="HardcodedText,SpUsage"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Button
+        android:id="@+id/btFontSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Font Size"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="82dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <Button
+        android:id="@+id/btFontColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Font Color"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="156dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <Button
+        android:id="@+id/btBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Change Background color"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="241dp"
+        tools:ignore="HardcodedText,SpUsage" />
+</LinearLayout>
