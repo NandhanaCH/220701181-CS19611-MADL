@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Mark Details"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="30dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SSLC"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp">
+    </TextView>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="150dp"
+        android:ems="20"
+        android:hint="SSLC Mark">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HSC"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp">
+    </TextView>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="150dp"
+        android:ems="20"
+        android:hint="HSC Mark">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UG"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="220dp">
+    </TextView>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+        android:ems="20"
+        android:hint="UG CGPA">
+    </EditText>
+
+
+</FrameLayout>
