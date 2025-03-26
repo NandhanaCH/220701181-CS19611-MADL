@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Network Operator Name"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <EditText
+        android:id="@+id/etNwOpName"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Network Country ISO"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etCountryISO"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Phone Type"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etPhoneType"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Sim State"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etSIMState"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Network Type"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etNetworkType"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btGetTelSer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Telephony Services" />
+</LinearLayout>
